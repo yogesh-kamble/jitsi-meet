@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     logger.log('(TIME) document ready:\t', now);
 });
 
-document.addEventListener('keydown', function() {
+document.addEventListener('keydown', function(event) {
     if (event.keyCode == 123) {
         // alert("This function has been disabled to prevent you from stealing my code!");
         return false;
